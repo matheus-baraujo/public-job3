@@ -1,0 +1,239 @@
+/* ================= ====== ================= */
+/* ================= Mobile ================= */
+/* ================= ====== ================= */
+
+@media screen and (max-width: 600px) {
+
+    /* ================= Geral ================= */
+
+    .sessao{
+        padding: 5% 10%;
+    }
+
+    p, a, .inputSend{
+        font-size: 0.6rem !important;
+    }
+
+    .tituloSessao{
+        font-size: 1.25rem !important;
+    }
+
+    .subtitulo{
+        font-size: 0.8rem !important;
+    }
+
+    .mensagemBreve{
+        font-size: 1.2rem !important;
+    }
+
+    .imgNoticia{
+        min-height: 70px;
+    }
+
+    /* ================= Menu ================= */
+
+    .navbar-brand img{
+        width: 3rem !important;
+    }
+
+    .searchDiv{
+        padding-right: 4% !important;
+    }
+
+    /* ================= home ================= */
+
+    .textSlide1{
+        bottom: 10%;
+    }
+
+    .newsTitleDiv{ 
+        top: 5%; 
+        right: 10%;
+    }
+
+    .newsTitle{
+        font-size: 0.8rem !important;
+    }
+
+    .newsUnderline{
+        height: 2px !important;
+        width: 145%;
+    }
+
+    .newHome{
+        border-top: #001253 2px solid;
+    }
+
+    .newTitle{
+        font-size: 1rem !important;
+    }
+
+    .newText{
+        -webkit-line-clamp: 10;
+    }
+
+    .pillarsTitle{
+        margin-top: 10%;
+        font-size: 1rem !important;
+    }
+
+    .pillarsRule{
+        height: 2px !important;
+    }
+
+    .pillarsSubtitle{
+        font-size: 0.8rem !important;
+    }
+
+    /* ================= Footer ================= */
+
+    .footerTitle{
+        font-size: 1rem !important;
+    }
+
+    .footerRule{
+        height: 2px !important;
+    }
+
+    /* ================= Sobre ================= */
+
+    .aboutRule{
+        width: 100%;
+        margin-left: -30%;
+        height: 2px !important;
+    }
+
+    .imgOwner{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .ownerRule{
+        height: 2px !important;
+    }
+
+
+    /* ================= Biblioteca =================*/
+
+    .libraryTitleDiv{ 
+        left: 15%; 
+    }
+
+    .librarySubtitle{
+        font-size: 0.7rem !important;
+    }
+
+    .filterDiv{
+        width: 100%;
+    }
+
+    .filterInput{
+        font-size: 0.7rem !important;
+    }
+
+    .categoryTitle{
+        color: #001253;
+        font-size: 0.8rem !important;
+        font-weight: bolder;
+    }
+
+    .categorySubtitle{
+        font-size: 0.8rem !important;
+    }
+
+    .returnModal{
+        font-size: 0.8rem !important;
+    }
+
+    .downloadBtn{
+        font-size: 0.7rem !important;
+    }
+
+    /* ================= Galeria ================= */
+
+    .imgLegends{
+        font-size: 0.6rem !important;
+    }
+
+    .imgGalery{
+        margin-left: 0%;
+    }
+
+    .galeryTitle{
+        font-size: 1rem !important;
+    }
+
+    .galerySubtitle{
+        font-size: 0.8rem !important;
+    }
+
+    .galeryRule{
+        height: 2px !important;
+    }
+
+    .galeryRule2{
+        height: 2px !important;
+    }
+
+    .imgGalery2{
+        height: 23vh;
+    }
+
+    .youtubeVideo{
+        height: 27vh !important;
+    }
+
+    /* ================= Colabore ================= */
+
+    .colabTitle{
+        font-size: 1.4rem !important;
+    }
+    
+    .colabSubtitle{
+        font-size: 0.9rem !important;
+    }
+    
+    .colabRule{
+        width: 50vw; 
+        height: 1px !important;
+    }
+
+    /* ================= Artigo ================= */
+
+    .tituloNoticia{
+        font-size: 1rem !important;
+    }
+
+    .retorno{
+        font-size: 1rem !important;
+    }
+
+    /* ================= Admin ================= */
+
+    .loginTitle{
+        font-size: 1.2rem !important;
+    }
+
+    .loginSubtitle{
+        font-size: 0.9rem !important;
+    }
+
+    .tableAdmin{
+        font-size: 0.5rem !important;
+    }
+    
+}
+
+
+/*========== Menu em outras quebras ==========*/
+
+@media screen and (max-width: 1260px) {
+    .navbar-brand img{
+        width: 3rem !important;
+    }
+
+    .nav-link{
+        font-size: 0.9rem !important;
+    }
+
+}

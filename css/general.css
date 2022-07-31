@@ -1,0 +1,648 @@
+
+/* ================= Geral ================= */
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.sessao{
+    padding: 5% 15%;
+    position: relative;
+}
+
+.subtitulo{
+    font-size: 2rem !important;
+    margin-bottom: 3%;
+}
+
+.mensagemBreve{
+    font-size: 2rem;
+    text-align: center;
+    margin: 10% 0%;
+    color: #001253;
+}
+
+/* ================= Menu ================= */
+
+.navbar-brand img{
+    width: 6rem;
+}
+
+.nav-item{
+    font-size: 1.2rem;
+}
+
+.bars{
+    font-size: 1.5rem;
+}
+
+.nav-link{
+    color: #001253;
+}
+
+.nav-link:hover{
+    color: #001253;
+    text-decoration: underline;
+}
+
+
+/*==== Ferramenta de busca ====*/
+
+.searchDiv{
+    border-radius: 50px; 
+    padding-right: 2%; 
+    background-color: #001253;
+}
+
+.searchIcon{
+    color: white;
+}
+
+.searchIcon:hover{
+    color: #676767;
+}
+
+.searchInput{
+    border: none; 
+    outline: none; 
+    border-color: transparent; 
+    color: white !important; 
+    box-shadow: none !important; 
+    background-color: inherit !important;
+}
+
+.searchInput::placeholder{
+    color: white;
+}
+
+
+/* ================= home ================= */
+
+.slides{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 30vw;
+}
+
+
+.carousel-control-next, .carousel-control-prev{
+    width: 5% !important;
+}
+
+.linkSlide{
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 1.5vw;
+}
+
+.linkSlide:hover{
+    color: #676767;
+}
+
+.textSlide{
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    color: white;
+}
+
+.titleSlide{
+    font-size: 2.5vw;
+    font-weight: bolder;
+    margin-bottom: 1%;
+}
+
+.subtitleSlide{
+    font-size: 1.5vw;
+    margin-bottom: 1%;
+}
+
+.imgHome1{
+    width: 70%;
+    margin-left: 5%;
+}
+
+.newsTitleDiv{
+    position: absolute; 
+    top: 15%; 
+    right: 20%;
+    color: #001253;
+}
+
+.newsTitle{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.newsUnderline{
+    color: #001253;
+    margin-top: 1%;
+    width: 165%;
+    margin-bottom: 5%;
+    height: 4px !important;
+    opacity: 1;
+}
+
+.newsLink{
+    color: #001253;
+    font-size: 1.5rem;
+}
+
+.newHome{
+    border-top: #001253 5px solid;
+}
+
+.newTitle{
+    color: #001253;
+    font-size: 2rem;
+}
+
+.newText{
+    display: -webkit-box;
+    -webkit-line-clamp: 20;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+    background: -webkit-linear-gradient(#001253, #eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.newLink{
+    float: right !important;
+    margin-bottom: 5%;
+    color: #001253;
+    text-decoration: none;
+}
+
+.pillarsTitle{
+    font-size: 2rem;
+    color: #001253;
+    font-weight: 300;
+    margin-bottom: 1%;
+}
+
+.pillarsRule{
+    color: #001253;
+    margin-top: 1%;
+    width: 130%;
+    margin-bottom: 5%;
+    height: 3px !important;
+    opacity: 1;
+    margin-left: -50%;
+}
+
+.pillarsSubtitle{
+    font-size: 1.5rem;
+    color: #001253;
+    margin-bottom: 1%;
+}
+
+.pillarsText{
+    color: #001253;
+}
+
+
+/* ================= Footer ================= */
+
+.footerTitle{
+    font-size: 2rem;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 1%;
+}
+
+.footerRule{
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1% !important;
+    width: 60%;
+    margin-bottom: 5%;
+    height: 3px !important;
+    opacity: 1;
+    margin-left: -25%;
+}
+
+.footerLink{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.footerLink:hover{
+    color: #676767;
+}
+
+/* ================= Sobre ================= */
+
+.aboutRule{
+    color: #001253;
+    margin-top: 1%;
+    width: 100%;
+    margin-bottom: 5%;
+    height: 3px !important;
+    opacity: 1;
+    margin-left: -10%;
+}
+
+.ownerRule{
+    color: #001253;
+    margin-top: 1%;
+    width: 120%;
+    margin-bottom: 5%;
+    height: 3px !important;
+    opacity: 1;
+    margin-left: -20%;
+}
+
+.highlightText{
+    color: #001253;
+    font-size: 1.2rem;
+}
+
+.familyRule{
+    color: #001253;
+    margin-top: 1%;
+    width: 150%;
+    margin-bottom: 5%;
+    height: 3px !important;
+    opacity: 1;
+    margin-left: -50%;
+}
+
+/* ================= Noticias ================= */
+
+.imgNoticia{
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.borderTop{
+    border-top: #001253 3px solid;
+    padding-top: 2%;
+}
+
+.carouselControl{
+    background-color: transparent;
+    border: none;
+    color: #001253;
+}
+
+.carouselControl:hover{
+    color: #676767;
+}
+
+/* ================= Artigo ================= */
+
+.capaNoticia{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.dataNoticia{
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+}
+
+.tituloNoticia{
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    margin-bottom: 1%;
+}
+
+.retorno{
+    font-size: 1.5rem;
+    color: #001253;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+}
+
+.retorno:hover{
+    color: lightgray;
+}
+
+/* ================= Biblioteca =================*/
+
+.libraryTitleDiv{
+    position: absolute; 
+    top: 15%; 
+    left: 20%; 
+    color: #001253;
+}
+
+.librarySubtitle{
+    font-size: 2rem;
+    color: #001253;
+    font-weight: 300;
+    margin-bottom: 1%;
+}
+
+.filterDiv{
+    border-radius: 50px; 
+    padding-right: 4%; 
+    background-color: #001253;
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.filterInput{
+    border: none; 
+    outline: none; 
+    border-color: transparent; 
+    color: white !important; 
+    box-shadow: none !important; 
+    background-color: inherit !important;
+}
+
+.filterInput::placeholder{
+    color: white;
+    opacity: 0.7;
+    font-weight: lighter;
+}
+
+.categoryTitle{
+    color: #001253;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.categorySubtitle{
+    color: #001253;
+    font-size: 1.5rem;
+    padding: 0%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight: 300;
+}
+
+.categorySubtitle:hover{
+    color: #676767;
+}
+
+.categorySubtitle:focus{
+    box-shadow: none;
+}
+
+.categoryLine{
+    color: #001253;
+    margin-top: 1%;
+    width: 30%;
+    margin-bottom: 1%;
+    height: 1px !important;
+    opacity: 1;
+}
+
+.modal{
+    background-color: rgba(0, 11, 53, 0.5);
+}
+
+.modal-content{
+    background-color: transparent;
+    border-radius: 0% !important;
+    border: none;
+}
+
+.modal-header{
+    padding: 1%;
+}
+
+.modal-body{
+    background-color: white;    
+}
+
+.returnModal{
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 0%;
+}
+
+.returnModal:hover{
+    color: lightgray;
+}
+
+.downloadBtn{
+    margin-left: 5%;
+    color: #001253;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+}
+
+.downloadBtn:hover{
+    color: #676767;
+}
+
+/* ================= Galeria ================= */
+
+.imgGalery{
+    margin-left: 10%;
+}
+
+.imgLegends{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.galeryTitleDiv{
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    width: 50%;
+    color: #001253;
+}
+
+.galeryTitle{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 1%;
+}
+
+.galerySubtitle{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1%;
+}
+
+.galeryRule{
+    color: #001253;
+    margin-top: 1%;
+    width: 100%;
+    margin-bottom: 1%;
+    height: 3px !important;
+    opacity: 1;
+}
+
+.galeryRule2{
+    color: #001253;
+    margin-top: 1%;
+    width: 70%;
+    margin-left: -25%;
+    margin-bottom: 1%;
+    height: 3px !important;
+    opacity: 1;
+}
+
+.imgGalery2{
+    height: 35vw;
+}
+
+.youtubeVideo{
+    height: 30vh;
+}
+
+.videoText{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #001253;
+}
+
+/* ================= Colabore ================= */
+
+.colabTitle{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 1%;
+    color: #001253;
+}
+
+.colabSubtitle{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 1%;
+    color: #001253;
+}
+
+.colabRule{
+    width: 40vw; 
+    margin-left: -15%; 
+    margin-top: 1%; 
+    margin-bottom: 1%;
+    height: 2px !important;
+    color: #001253;
+    opacity: 1;
+}
+
+.colabInput{
+    background-color: #001253;
+    color: white;
+    border-radius: 5px;
+    font-weight: 300;
+    width: 100%;
+    border: none !important;
+    padding: 1%;
+    box-shadow: none !important;
+}
+
+.colabInput::placeholder{
+    color: white;
+    opacity: 0.7;
+    font-weight: 300;
+}
+
+.inputSubmit{
+    color: #001253;
+    background-color: white;
+    border: 3px solid #001253;
+    padding: 2% 5%;
+    border-radius: 1000px;
+    transition: ease-in-out 0.3s;
+}
+
+.inputSubmit:hover{
+    color: white;
+    background-color: #001253;
+}
+
+.fa-upload{
+    color: black;
+}
+
+.nomeArquivo{
+    color: #001253;
+}
+
+#labelArquivo{
+    font-size: 1.2rem;
+    color: #001253;
+    display: inline-block;
+}
+
+#arquivo{
+    display: none;
+}
+
+
+/* ================= Admin ================= */
+
+.inputSend{
+    color: white;
+    background-color: #001253;
+    padding: 1% 5%;
+    border: 2px solid white;
+    box-shadow: none;
+    border-radius: 1000px;
+    transition: ease-in-out 0.3s;
+}
+
+.inputSend:hover{
+    color: #001253;
+    background-color: white;
+    border: 2px solid #001253;
+}
+
+.loginTitle{
+    font-size: 2.5rem;
+    color: #001253;
+    font-weight: bolder;
+}
+
+.loginSubtitle{
+    font-size: 1.5rem;
+    color: #001253;
+    font-weight: bolder;
+}
+
+.tableAdmin{
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid #676767;
+}
+
+.btn-edit-delete{
+    color: #001253;
+}
+
+.btn-edit-delete:hover{
+    color: cadetblue;
+}
